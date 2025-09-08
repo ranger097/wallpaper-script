@@ -42,7 +42,8 @@ def choosing_wallpaper(stdscr):
                 subprocess.run(["swww" ,  "kill"], check=False)
                 subprocess.Popen(["swww-daemon"])
                 subprocess.run(["swww", "img", "/home/ranger/wallpaper-script/Wallpapers/Dan_Da_Dan_1.png"], check=True)
-                subprocess.run(["wal", "-i", "/home/ranger/wallpaper-script/Wallpapers/Dan_Da_Dan_1.png"],check=True)
+                subprocess.run(["matugen", "image", "/home/ranger/wallpaper-script/Wallpapers/Dan_Da_Dan_1.png", "-p" , "hyprland"], check=True)
+                subprocess.run(["wal","-i", "/home/ranger/wallpaper-script/Wallpapers/Dan_Da_Dan_1.png"],check=True)
                 subprocess.run(["hyprctl", "reload"],check=True)
             except:
                 stdscr.clear()
@@ -57,7 +58,8 @@ def choosing_wallpaper(stdscr):
                 subprocess.run(["swww" ,  "kill"], check=False)
                 subprocess.Popen(["swww-daemon"])
                 subprocess.run(["swww", "img", "/home/ranger/wallpaper-script/Wallpapers/Demon_Slayer_1.jpg"], check=True)
-                subprocess.run(["wal", "-i", "/home/ranger/wallpaper-script/Wallpapers/Demon_Slayer_1.jpg"],check=True)
+                subprocess.run(["matugen", "image", "/home/ranger/wallpaper-script/Wallpapers/Demon_Slayer_1.jpg", "-p" , "hyprland"], check=True)
+                subprocess.run(["wal","-i", "/home/ranger/wallpaper-script/Wallpapers/Demon_Slayer_1.jpg"],check=True)
                 subprocess.run(["hyprctl", "reload"],check=True)
             except:
                 stdscr.clear()
@@ -72,7 +74,8 @@ def choosing_wallpaper(stdscr):
                 subprocess.run(["swww" ,  "kill"], check=False)
                 subprocess.Popen(["swww-daemon"])
                 subprocess.run(["swww", "img", "/home/ranger/wallpaper-script/Wallpapers/JJK_1.jpeg"], check=True)
-                subprocess.run(["wal", "-i", "/home/ranger/wallpaper-script/Wallpapers/JJK_1.jpeg"],check=True)
+                subprocess.run(["matugen", "image", "/home/ranger/wallpaper-script/Wallpapers/JJK_1.jpeg", "-p" , "hyprland"], check=True)
+                subprocess.run(["wal","-i", "/home/ranger/wallpaper-script/Wallpapers/JJK_1.jpeg"],check=True)
                 subprocess.run(["hyprctl", "reload"],check=True)
             except:
                stdscr.clear()
@@ -87,7 +90,8 @@ def choosing_wallpaper(stdscr):
                 subprocess.run(["swww" ,  "kill"], check=False)
                 subprocess.Popen(["swww-daemon"])
                 subprocess.run(["swww", "img", "/home/ranger/wallpaper-script/Wallpapers/JJK_2.jpeg"], check=True)
-                subprocess.run(["wal", "-i", "/home/ranger/wallpaper-script/Wallpapers/JJK_2.jpeg"],check=True)
+                subprocess.run(["matugen", "image", "/home/ranger/wallpaper-script/Wallpapers/JJK_2.jpeg", "-p" , "hyprland"], check=True)
+                subprocess.run(["wal","-i", "/home/ranger/wallpaper-script/Wallpapers/JJK_2.jpeg"],check=True)
                 subprocess.run(["hyprctl", "reload"],check=True)
             except:
                 stdscr.clear()
@@ -102,7 +106,8 @@ def choosing_wallpaper(stdscr):
                 subprocess.run(["swww" ,  "kill"], check=False)
                 subprocess.Popen(["swww-daemon"])
                 subprocess.run(["swww", "img", "/home/ranger/wallpaper-script/Wallpapers/JJK_3.jpeg"], check=True)
-                subprocess.run(["wal", "-i", "/home/ranger/wallpaper-script/Wallpapers/JJK_3.jpeg"],check=True)
+                subprocess.run(["matugen", "image", "/home/ranger/wallpaper-script/Wallpapers/JJK_3.jpeg", "-p" , "hyprland"], check=True)
+                subprocess.run(["wal","-i", "/home/ranger/wallpaper-script/Wallpapers/JJK_3.jpeg"],check=True)
                 subprocess.run(["hyprctl", "reload"],check=True)
             except:
                 stdscr.clear()
@@ -117,7 +122,8 @@ def choosing_wallpaper(stdscr):
                 subprocess.run(["swww" ,  "kill"], check=False)
                 subprocess.Popen(["swww-daemon"])
                 subprocess.run(["swww", "img", "/home/ranger/wallpaper-script/Wallpapers/Kaiju_1.jpg"], check=True)
-                subprocess.run(["wal", "-i", "/home/ranger/wallpaper-script/Wallpapers/Kaiju_1.jpg"],check=True)
+                subprocess.run(["matugen", "image", "/home/ranger/wallpaper-script/Wallpapers/Kaiju_1.jpg", "-p" , "hyprland"], check=True)
+                subprocess.run(["wal","-i", "/home/ranger/wallpaper-script/Wallpapers/Kaiju_1.jpg"],check=True)
                 subprocess.run(["hyprctl", "reload"],check=True)
             except:
                 stdscr.clear()
@@ -132,7 +138,8 @@ def choosing_wallpaper(stdscr):
                 subprocess.run(["swww" ,  "kill"], check=False)
                 subprocess.Popen(["swww-daemon"])
                 subprocess.run(["swww", "img", "/home/ranger/wallpaper-script/Wallpapers/Kaimen_riders_1.png"], check=True)
-                subprocess.run(["wal", "-i", "/home/ranger/wallpaper-script/Wallpapers/Kaimen_riders_1.png"],check=True)
+                subprocess.run(["matugen", "image", "/home/ranger/wallpaper-script/Wallpapers/Kaimen_riders_1.png", "-p" , "hyprland"], check=True)
+                subprocess.run(["wal","-i", "/home/ranger/wallpaper-script/Wallpapers/Kaimen_riders_1.png"],check=True)
                 subprocess.run(["hyprctl", "reload"],check=True)
             except:
                 stdscr.clear()
@@ -147,7 +154,8 @@ def choosing_wallpaper(stdscr):
                 subprocess.run(["swww" ,  "kill"], check=False)
                 subprocess.Popen(["swww-daemon"])
                 subprocess.run(["swww", "img", "/home/ranger/wallpaper-script/Wallpapers/Kill_La_Kill_1.webp"], check=True)
-                subprocess.run(["wal", "-i", "/home/ranger/wallpaper-script/Wallpapers/Kill_La_Kill_1.webp"],check=True)
+                subprocess.run(["matugen", "image", "/home/ranger/wallpaper-script/Wallpapers/Kill_La_Kill_1.webp", "-p" , "hyprland"], check=True)
+                subprocess.run(["wal","-i", "/home/ranger/wallpaper-script/Wallpapers/Kill_La_Kill_1.webp"],check=True)
                 subprocess.run(["hyprctl", "reload"],check=True)
             except:
                 stdscr.clear()
@@ -162,7 +170,8 @@ def choosing_wallpaper(stdscr):
                 subprocess.run(["swww" ,  "kill"], check=False)
                 subprocess.Popen(["swww-daemon"])
                 subprocess.run(["swww", "img", "/home/ranger/wallpaper-script/Wallpapers/Naruto_1.jpeg"], check=True)
-                subprocess.run(["wal", "-i", "/home/ranger/wallpaper-script/Wallpapers/Naruto_1.jpeg"],check=True)
+                subprocess.run(["matugen", "image", "/home/ranger/wallpaper-script/Wallpapers/Naruto_1.jpeg", "-p" , "hyprland"], check=True)
+                subprocess.run(["wal","-i", "/home/ranger/wallpaper-script/Wallpapers/Naruto_1.jpeg"],check=True)
                 subprocess.run(["hyprctl", "reload"],check=True)
             except:
                stdscr.clear()
@@ -177,7 +186,8 @@ def choosing_wallpaper(stdscr):
                 subprocess.run(["swww" ,  "kill"], check=False)
                 subprocess.Popen(["swww-daemon"])
                 subprocess.run(["swww", "img", "/home/ranger/wallpaper-script/Wallpapers/Pokemon_1.jpg"], check=True)
-                subprocess.run(["wal", "-i", "/home/ranger/wallpaper-script/Wallpapers/Pokemon_1.jpg"],check=True)
+                subprocess.run(["matugen", "image", "/home/ranger/wallpaper-script/Wallpapers/Pokemon_1.jpg", "-p" , "hyprland"], check=True)
+                subprocess.run(["wal","-i", "/home/ranger/wallpaper-script/Wallpapers/Pokemon_1.jpg"],check=True)
                 subprocess.run(["hyprctl", "reload"],check=True)
             except:
                 stdscr.clear()
@@ -192,7 +202,8 @@ def choosing_wallpaper(stdscr):
                 subprocess.run(["swww" ,  "kill"], check=False)
                 subprocess.Popen(["swww-daemon"])
                 subprocess.run(["swww", "img", "/home/ranger/wallpaper-script/Wallpapers/Pokemon_2.jpg"], check=True)
-                subprocess.run(["wal", "-i", "/home/ranger/wallpaper-script/Wallpapers/Pokemon_2.jpg"],check=True)
+                subprocess.run(["matugen", "image", "/home/ranger/wallpaper-script/Wallpapers/Pokemon_2.jpg", "-p" , "hyprland"], check=True)
+                subprocess.run(["wal","-i", "/home/ranger/wallpaper-script/Wallpapers/Pokemon_2.jpg"],check=True)
                 subprocess.run(["hyprctl", "reload"],check=True)
             except:
                 stdscr.clear()
@@ -206,7 +217,8 @@ def choosing_wallpaper(stdscr):
                 subprocess.run(["swww" ,  "kill"], check=False)
                 subprocess.Popen(["swww-daemon"])
                 subprocess.run(["swww", "img", "/home/ranger/wallpaper-script/Wallpapers/Pokemon_3.jpg"], check=True)
-                subprocess.run(["wal", "-i", "/home/ranger/wallpaper-script/Wallpapers/Pokemon_3.jpg"],check=True)
+                subprocess.run(["matugen", "image", "/home/ranger/wallpaper-script/Wallpapers/Pokemon_3.jpg", "-p" , "hyprland"], check=True)
+                subprocess.run(["wal","-i", "/home/ranger/wallpaper-script/Wallpapers/Pokemon_3.jpg"],check=True)
                 subprocess.run(["hyprctl", "reload"],check=True)
             except:
                 stdscr.clear()
@@ -220,7 +232,8 @@ def choosing_wallpaper(stdscr):
                 subprocess.run(["swww" ,  "kill"], check=False)
                 subprocess.Popen(["swww-daemon"])
                 subprocess.run(["swww", "img", "/home/ranger/wallpaper-script/Wallpapers/Solo_leveling_1.png"], check=True)
-                subprocess.run(["wal", "-i", "/home/ranger/wallpaper-script/Wallpapers/Solo_leveling_1.png"],check=True)
+                subprocess.run(["matugen", "image", "/home/ranger/wallpaper-script/Wallpapers/Solo_leveling_1.png", "-p" , "hyprland"], check=True)
+                subprocess.run(["wal","-i", "/home/ranger/wallpaper-script/Wallpapers/Solo_leveling_1.png"],check=True)
                 subprocess.run(["hyprctl", "reload"],check=True)
             except:
                 stdscr.clear()
@@ -234,18 +247,55 @@ def choosing_wallpaper(stdscr):
             choosing_wallpaper(stdscr)
 
 
+def get_colors(stdscr):
+    pywal_colors_config = '/home/ranger/.cache/wal/colors.json'
+    with open(pywal_colors_config, 'r+') as pywal_colors_file:
+        pywal_formatted_data = json.load(pywal_colors_file)
+        background = pywal_formatted_data["special"]["background"]
+        foreground = pywal_formatted_data["special"]["foreground"]
+        cursor = pywal_formatted_data["special"]["cursor"]
+        color0 = pywal_formatted_data["colors"]["color0"]
+        color1 = pywal_formatted_data["colors"]["color1"]
+        color2 = pywal_formatted_data["colors"]["color2"]
+        color3 = pywal_formatted_data["colors"]["color3"]
+        color4 = pywal_formatted_data["colors"]["color4"]
+        color5 = pywal_formatted_data["colors"]["color5"]
+        color6 = pywal_formatted_data["colors"]["color6"]
+        color7 = pywal_formatted_data["colors"]["color7"]
+        color8 = pywal_formatted_data["colors"]["color8"]
+        color9 = pywal_formatted_data["colors"]["color9"]
+        color10 = pywal_formatted_data["colors"]["color10"]
+        color11 = pywal_formatted_data["colors"]["color11"]
+        color12 = pywal_formatted_data["colors"]["color12"]
+        color13 = pywal_formatted_data["colors"]["color13"]
+        color14 = pywal_formatted_data["colors"]["color14"]
+        color15 = pywal_formatted_data["colors"]["color15"]
 
 
+
+    hyprpanel_config = '/home/ranger/.config/hyprpanel/config.json'
+    with open(hyprpanel_config, 'r+') as hyprpanel_json_file:
+        hyprpanel_formatted_data = json.load(hyprpanel_json_file)
+        hyprpanel_formatted_data["theme.bar.buttons.borderColor"] = color4
+        hyprpanel_formatted_data["theme.bar.menus.background"] = color2
+        hyprpanel_formatted_data["theme.bar.buttons.icon"] = color6
+        hyprpanel_formatted_data["theme.bar.buttons.text"] = color7
+        hyprpanel_formatted_data["theme.bar.buttons.workspaces.hover"] = color4
+        hyprpanel_formatted_data["theme.bar.buttons.workspaces.available"] = color5
+        hyprpanel_formatted_data["theme.bar.buttons.workspaces.occupied"] = color6
+        hyprpanel_formatted_data["theme.bar.buttons.workspaces.active"] = color7
+        hyprpanel_formatted_data["theme.bar.buttons.background"] = background
+
+    with open(hyprpanel_config, 'w' ) as f:
+        json.dump(hyprpanel_formatted_data , f, indent=4)
+
+
+    
 def main(stdscr):
         greet(stdscr)
         choosing_wallpaper(stdscr)
-    
+        get_colors(stdscr)
         
        
-
-
-
-   
-   
 if __name__ == "__main__":
     wrapper(main)
