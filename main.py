@@ -332,6 +332,7 @@ def choosing_wallpaper(stdscr):
                 subprocess.run(["matugen", "image", "/home/ranger/wallpaper-script/Wallpapers/Solo_leveling_1.png", "-p" , "hyprland"], check=True)
                 subprocess.run(["wal","-i", "/home/ranger/wallpaper-script/Wallpapers/Solo_leveling_1.png"],check=True)
                 subprocess.run(["hyprctl", "reload"],check=True)
+
                 rofi_config = '/home/ranger/.config/rofi/config.rasi'
                 with open(rofi_config, 'r') as rofi_file:
                     the_full_rofi_config = rofi_file.readlines()
@@ -375,6 +376,43 @@ def get_colors(stdscr):
         color13 = pywal_formatted_data["colors"]["color13"]
         color14 = pywal_formatted_data["colors"]["color14"]
         color15 = pywal_formatted_data["colors"]["color15"]
+
+    wezterm_config = '/home/ranger/.config/wezterm/wezterm.lua'
+    with open(wezterm_config, 'r') as wezterm_lua_file:
+        the_full_wezterm_config = wezterm_lua_file.readlines()
+
+        the_full_wezterm_config[5] = f"foreground = '{foreground}',"+ '\n'
+        the_full_wezterm_config[6] = f"background = '{background}',"+ '\n'
+        the_full_wezterm_config[7] = f"cursor_bg = '{color1}',"+ '\n'
+        the_full_wezterm_config[8] = f"cursor_fg = '{color2}',"+ '\n'
+        the_full_wezterm_config[9] = f"cursor_border = '{color3}',"+ '\n'
+        the_full_wezterm_config[10] = f"selection_fg = '{color4}',"+ '\n'
+        the_full_wezterm_config[11] = f"selection_bg = '{color5}',"+ '\n'
+        the_full_wezterm_config[12] = f"scrollbar_thumb = '{color6}',"+ '\n'
+
+    with open(wezterm_config, 'w') as wezterm_lua_file:
+        wezterm_lua_file.writelines(the_full_wezterm_config)
+
+
+    starship_config = '/home/ranger/.config/starship.toml'
+    with open(starship_config, 'r') as starship_toml_file:
+        the_full_starship_config = starship_toml_file.readlines()
+
+
+        the_full_starship_config[1] = f"[]({color2})\\" + "\n"
+        the_full_starship_config[2] = f"[ ]({color3})\\" + "\n"
+        the_full_starship_config[3] = f"[ranger ](fg:{color2})\\" + "\n"
+        the_full_starship_config[4] = f"[on](fg:{color3})\\" + "\n"
+        the_full_starship_config[6] = f"[](fg:{color2})\\" +  "\n"
+        the_full_starship_config[9] = f"[](fg:{color2})\\" + "\n"
+        the_full_starship_config[22] = f'style = "fg:{color2}"' + "\n"
+
+
+    with open(starship_config, 'w') as starship_toml_file:
+        starship_toml_file.writelines(the_full_starship_config)
+
+
+
 
 
 
@@ -438,6 +476,7 @@ def get_colors(stdscr):
         hyprpanel_formatted_data["theme.bar.buttons.modules.cpu.text"] = color7
         hyprpanel_formatted_data["theme.bar.buttons.modules.cpu.icon"] = color7
         hyprpanel_formatted_data["theme.bar.buttons.modules.cpu.border"] = color4
+
 
     with open(hyprpanel_config, 'w' ) as f:
         json.dump(hyprpanel_formatted_data , f, indent=4)
